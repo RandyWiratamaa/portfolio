@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { nanoid } from 'nanoid';
 
 // HEAD DATA
@@ -9,7 +10,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Portfolio',
+  title: 'My Portfolio',
   name: 'Randy Wiratama',
   subtitle: 'I am Pull Stack Developer',
   cta: '',
@@ -28,30 +29,21 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'grosir.jpg',
+    title: 'Aplikasi Penjualan',
+    info: 'Web Based CodeIgniter Framework',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://github.com/RandyWira/penjualan',
+    repo: 'https://github.com/RandyWira/penjualan', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'farmasi.jpg',
+    title: 'Aplikasi Farmasi',
+    info: 'Web Based Laravel Framework',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://github.com/RandyWira/farmasi',
+    repo: 'https://github.com/RandyWira/farmasi', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +51,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'randywiratama1@gmail.com',
 };
 
 // FOOTER DATA
