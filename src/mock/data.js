@@ -3,16 +3,16 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Portfolio', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Allohaa', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: 'My Portfolio',
+  title: 'Allohaa.. I am',
   name: 'Randy Wiratama',
-  subtitle: 'I am Pull Stack Developer',
+  subtitle: "I'm a Web Developer",
   cta: '',
 };
 
@@ -70,17 +70,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://linkedin.com/in/randy-wiratama-97096b192',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/RandyWira',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
