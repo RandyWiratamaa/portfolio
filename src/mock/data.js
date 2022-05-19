@@ -33,8 +33,8 @@ export const projectsData = [
     title: 'Aplikasi Penjualan',
     info: 'Web Based CodeIgniter Framework',
     info2: '',
-    url: 'https://github.com/RandyWira/penjualan',
-    repo: 'https://github.com/RandyWira/penjualan', // if no repo, the button will not show up
+    url: 'https://github.com/RandyWiratamaa/penjualan',
+    repo: 'https://github.com/RandyWiratamaa/penjualan', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -42,8 +42,17 @@ export const projectsData = [
     title: 'Aplikasi Farmasi',
     info: 'Web Based Laravel Framework',
     info2: '',
-    url: 'https://github.com/RandyWira/farmasi',
-    repo: 'https://github.com/RandyWira/farmasi', // if no repo, the button will not show up
+    url: 'https://github.com/RandyWiratamaa/farmasi',
+    repo: 'https://github.com/RandyWiratamaa/farmasi', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'mini-market.jpg',
+    title: 'Aplikasi Mini Market',
+    info: 'Web Based Laravel Framework',
+    info2: '',
+    url: 'https://github.com/RandyWiratamaa/mini-market',
+    repo: 'https://github.com/RandyWiratamaa/mini-market', // if no repo, the button will not show up
   },
 ];
 
