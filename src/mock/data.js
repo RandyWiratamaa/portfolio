@@ -47,7 +47,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'mini-market.jpg',
+    img: 'mini-market.png',
     title: 'Aplikasi Mini Market',
     info: 'Web Based Laravel Framework',
     info2: '',
