@@ -40,7 +40,7 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'I am an IT Staff at the hospital in RSIA Sayang Ibu Batusangkar, I worked from December 2017 until now. '}
+                    'I am an IT Staff at the hospital in RSIA Sayang Ibu Batusangkar, I worked from December 2017 until February 2022. '}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
