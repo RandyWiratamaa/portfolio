@@ -47,7 +47,7 @@ const About = () => {
                     "I've an interest in Web Development and Mobile Development. I'm a freelance web developer. I usually use Laravel and Codeigniter."}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || ''}
+                  {paragraphThree || "I've experience 7 years as Web Developer and 4 years using Laravel and Codeigniter Framework."}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
